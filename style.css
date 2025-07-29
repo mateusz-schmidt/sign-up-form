@@ -1,0 +1,133 @@
+:root {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gym-image {
+  position: fixed;
+  z-index: -1;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+}
+
+
+.logo {
+  fill: white;
+  padding: 0;
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  align-self: center;
+}
+
+header {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header footer {
+  margin: auto auto 0 auto;
+  color: white;
+}
+
+header div {
+  color: white;
+  background-color: #00000057;
+  height: fit-content;
+  display: flex;
+  justify-self: center;
+  margin-top: 200px;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+main {
+  background-color: rgb(233, 232, 232);
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form > div {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+section p {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 50px 100px 50px 50px;
+}
+
+button {
+  margin:50px;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(187, 62, 62);
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+section footer {
+  margin-left: 50px;
+  font-size: 1.5rem;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(187, 62, 62);
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5px;  
+  padding: 5px;
+}
+
+input:invalid {
+  border: 2px solid rgb(230, 70, 70);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid  rgb(66, 113, 214);
+}
